@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;600;900&family=Montserrat:wght@500;600;700;900&family=Open+Sans:wght@400;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(122, 190, 122);
+    display: grid;
+    place-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2 {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(226, 226, 226);
+    padding: 2em 5em 2em;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.title {
+    font-weight: 400;
+    color: rgb(77, 77, 61);
+    margin-bottom: 30px;
+    font-size: 1.3em;
+}
+
+.joke {
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: rgb(29, 26, 26);
+    font-size: 1.7em;
+}
+
+.joke-btn {
+    outline: none;
+    font-size: 1.1rem;
+    border: none;
+    padding: 0.6em 2em;
+    background-color: rgb(71, 121, 15);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.joke-btn:hover {
+    background-color: rgba(71, 121, 15, 0.86);
+}
+
+.joke-btn:active {
+    transform: translateY(2px);
+}
